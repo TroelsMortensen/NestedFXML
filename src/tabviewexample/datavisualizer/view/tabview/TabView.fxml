@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="tabviewexample.datavisualizer.view.tabview.TabViewController">
+    <children>
+        <TabPane fx:id="chartTabPane" layoutY="-1.0" prefHeight="400.0" prefWidth="600.0"
+                 tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="Pie Chart">
+                    <fx:include fx:id="pieChartView" source="../piechart/PieChartView.fxml"/>
+                </Tab>
+                <Tab text="Bar Chart">
+                    <fx:include fx:id="barChartView" source="../barchart/BarChartView.fxml"/>
+                </Tab>
+                <Tab text="Text Cart">
+                    <fx:include fx:id="textView" source="../textchart/TextView.fxml"/>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
