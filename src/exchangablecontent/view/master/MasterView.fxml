@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="253.0" prefWidth="536.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exchangablecontent.view.master.MasterViewController">
+   <children>
+      <ComboBox fx:id="toolCmbBox" prefHeight="26.0" prefWidth="221.0" promptText="Select the Tool Here" />
+      <AnchorPane fx:id="mainAnchorPane" prefHeight="228.0" prefWidth="536.0" />
+   </children>
+</VBox>
